@@ -1,0 +1,61 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* fonts */
+
+@layer base {
+    /* dana font */
+    @font-face {
+        font-family: Dana;
+        src: url("../fonts/Dana/woff2/DanaFaNum-Regular.woff2") format("woff2");
+    }
+    @font-face {
+        font-family: Dana-medium;
+        src: url("../fonts/Dana/woff2/DanaFaNum-Medium.woff2") format("woff2");
+    }
+    @font-face {
+        font-family: Dana-demiBold;
+        src: url("../fonts/Dana/woff2/DanaFaNum-DemiBold.woff2") format("woff2");
+    }
+
+    /* morabba */
+    @font-face {
+        font-family: morabba;
+        src: url("../fonts/Morabba/woff2/Morabba-Medium.woff2") format("woff2");
+    }
+    @font-face {
+        font-family: morabba-light;
+        src: url("../fonts/Morabba/woff2/Morabba-Light.woff2") format("woff2");
+    }
+    @font-face {
+        font-family: morabba-bold;
+        src: url("../fonts/Morabba/woff2/Morabba-Bold.woff2") format("woff2");
+    }
+}
+
+@theme {
+    --font-Dana: Dana;
+    --font-Dana-medium: Dana-medium;
+    --font-Dana-demiBold: Dana-demiBold;
+
+    --font-morabba: morabba;
+    --font-morabba-light: morabba-light;
+    --font-morabba-bold: morabba-bold;
+
+}
+
+@layer components {
+    .main_background {
+        background-image: url("../image/background 3.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .footer_background {
+        background-image: url("../image/background Dark.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
