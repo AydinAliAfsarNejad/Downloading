@@ -36,8 +36,8 @@
 
 <body class="main_background">
 
-<header class="md:inline-block hidden md:w-full md:h-20 md:sticky  bg-slate-900 text-white font-Dana shadow-md mt-0 " id="header">
-    <div class="flex items-center justify-between container">
+<header class="main-header" id="header">
+    <div class="flex items-center justify-between container ">
 
 
         <div id="menu">
@@ -46,26 +46,26 @@
                     <li class="text-xl font-Dana-medium text-sky-400"><a href="">صفحه اصلی</a></li>
                     <li class="relative group leading-[56px] hover:text-sky-500 transition-all duration-300"><a href="">بازی</a>
                         <div class="absolute opacity-0 invisible group-hover:opacity-100 group-hover:visible top-full w-52 p-6 space-y-3 text-white bg-slate-800 text-base tracking-normal shadow-xl rounded-2xl transition-all">
-                            <a href="" class="block font-Dana-medium text-white hover:text-sky-500">کرک</a>
-                            <a href="" class="block font-Dana-medium text-white hover:text-sky-500">بک آپ</a>
+                            <a href="./Views/GameCrack.html" class="block font-Dana-medium text-white hover:text-sky-500">کرک</a>
+                            <a href="./Views/GameBackUp.html" class="block font-Dana-medium text-white hover:text-sky-500">بک آپ</a>
                         </div>
                     </li>
 
                     <li class="relative group leading-[56px] hover:text-sky-500 transition-all duration-300"><a href="">نرم
                         افزار</a>
                         <div class="absolute opacity-0 invisible group-hover:opacity-100 group-hover:visible top-full w-52 p-6 space-y-3 text-white bg-slate-800 text-base tracking-normal shadow-xl rounded-2xl transition-all">
-                            <a href="" class="block font-Dana-medium text-white hover:text-sky-500">طراحی</a>
-                            <a href="" class="block font-Dana-medium text-white hover:text-sky-500">برنامه نویسی</a>
-                            <a href="" class="block font-Dana-medium text-white hover:text-sky-500">فایل های ضروری</a>
+                            <a href="./Views/Graphic.html" class="block font-Dana-medium text-white hover:text-sky-500">طراحی</a>
+                            <a href="./Views/Programming.html" class="block font-Dana-medium text-white hover:text-sky-500">برنامه نویسی</a>
+                            <a href="./Views/Apps.html" class="block font-Dana-medium text-white hover:text-sky-500">فایل های ضروری</a>
                         </div>
                     </li>
 
                     <li class="relative group leading-[56px] hover:text-sky-500 transition-all duration-300"><a href="">سیستم
                         عامل</a>
                         <div class="absolute opacity-0 invisible group-hover:opacity-100 group-hover:visible top-full w-52 p-6 space-y-3 text-white bg-slate-800 text-base tracking-normal shadow-xl rounded-2xl transition-all">
-                            <a href="" class="block font-Dana-medium text-white hover:text-sky-500">ویندوز</a>
-                            <a href="" class="block font-Dana-medium text-white hover:text-sky-500">لینوکس</a>
-                            <a href="" class="block font-Dana-medium text-white hover:text-sky-500">mac OS</a>
+                            <a href="./Views/Windows.html" class="block font-Dana-medium text-white hover:text-sky-500">ویندوز</a>
+                            <a href="./Views/linux.html" class="block font-Dana-medium text-white hover:text-sky-500">لینوکس</a>
+                            <a href="./Views/MacOS.html" class="block font-Dana-medium text-white hover:text-sky-500">mac OS</a>
                         </div>
                     </li>
 
@@ -81,7 +81,7 @@
         </div>
 
         <div id="search" class="flex items-center justify-between gap-2">
-            <form class="flex items-center justify-between gap-2">
+            <form name="search" method="get" class="flex items-center justify-between gap-2">
                 <div class="bg-white text-slate-900 font-Dana shadow-md rounded-2xl border-0 px-4 py-3">
                     <input name="search" type="text" placeholder="جستجو گر">
                 </div>
@@ -145,7 +145,7 @@
     </div>
 </div>
 
-<main class="w-[1280px] mx-auto my-5 bg-zinc-200 rounded-2xl">
+<main class="main-container">
     <div class="container  justify-between items-center ">
 
         <!--Content-->

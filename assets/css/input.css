@@ -31,6 +31,7 @@
         font-family: morabba-bold;
         src: url("../fonts/Morabba/woff2/Morabba-Bold.woff2") format("woff2");
     }
+
 }
 
 @theme {
@@ -57,5 +58,27 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    .content-hover{
+        @apply  hover:bg-gradient-to-br hover:from-sky-500 hover:to-indigo-600 to-80% hover:text-white transition-all duration-300
+    }
+
+    .active{
+        @apply w-10 h-10 border border-white rounded-4xl items-center text-center py-1  bg-gradient-to-br from-sky-500 to-indigo-600 to-80% cursor-pointer
+    }
+
+
+    .non-active{
+        @apply w-10 h-10 border border-white bg-slate-100 text-black rounded-4xl items-center text-center py-1 cursor-pointer
+    }
+
+    .main-header{
+        @apply md:inline-block hidden md:w-full md:h-20 md:sticky  bg-slate-900 text-white font-Dana shadow-md mt-0
+    }
+
+    .main-container{
+        @apply w-[1280px] mx-auto my-5 bg-zinc-200 rounded-2xl
+    }
+
 }
 
