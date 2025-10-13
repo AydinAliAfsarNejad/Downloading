@@ -77,8 +77,18 @@
     }
 
     .main-container{
-        @apply w-[1280px] mx-auto my-5 bg-zinc-200 rounded-2xl
+        @apply w-[1280px] mx-auto my-5 bg-zinc-200 rounded-2xl shadow-xl
     }
 
+    .ltr{
+        direction: ltr;
+    }
+    .rtl{
+        direction: rtl;
+    }
+
+    .download-btn{
+        @apply w-56 h-10 rounded-4xl bg-gray-200 text-slate-700 hover:bg-emerald-600 hover:text-white transition-colors ease-in duration-300 text-center py-1 m-4
+    }
 }
 

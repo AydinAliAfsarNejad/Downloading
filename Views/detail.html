@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" href="../assets/image/logo.png">
+</head>
+
+
+<div class="hidden">
+    <svg>
+        <symbol id="search" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/>
+        </symbol>
+
+        <symbol id="downloading_logo" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"/>
+        </symbol>
+
+
+        <symbol id="x-mark" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/>
+        </symbol>
+
+        <symbol id="chevron-right" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5"/>
+        </symbol>
+
+        <symbol id="chevron-left" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m18.75 4.5-7.5 7.5 7.5 7.5m-6-15L5.25 12l7.5 7.5"/>
+        </symbol>
+
+        <symbol id="cpu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 0 0 2.25-2.25V6.75a2.25 2.25 0 0 0-2.25-2.25H6.75A2.25 2.25 0 0 0 4.5 6.75v10.5a2.25 2.25 0 0 0 2.25 2.25Zm.75-12h9v9h-9v-9Z"/>
+        </symbol>
+
+
+    </svg>
+</div>
+
+
+<body class="main_background">
+
+
+<header class="main-header" id="header">
+    <div class="flex items-center justify-between container">
+
+
+        <div id="menu">
+            <div class="w-full md:px-7 px-3.5 md:py-3 py-2 ">
+                <ul class="flex items-center md:space-x-5 space-x-2.5 font-Dana">
+                    <li class="text-xl font-Dana-medium text-sky-400"><a href="">صفحه اصلی</a></li>
+                    <li class="relative group leading-[56px] hover:text-sky-500 transition-all duration-300"><a href="">بازی</a>
+                        <div class="absolute opacity-0 invisible group-hover:opacity-100 group-hover:visible top-full w-52 p-6 space-y-3 text-white bg-slate-800 text-base tracking-normal shadow-xl rounded-2xl transition-all">
+                            <a href="" class="block font-Dana-medium text-white hover:text-sky-500">کرک</a>
+                            <a href="" class="block font-Dana-medium text-white hover:text-sky-500">بک آپ</a>
+                        </div>
+                    </li>
+
+                    <li class="relative group leading-[56px] hover:text-sky-500 transition-all duration-300"><a href="">نرم
+                        افزار</a>
+                        <div class="absolute opacity-0 invisible group-hover:opacity-100 group-hover:visible top-full w-52 p-6 space-y-3 text-white bg-slate-800 text-base tracking-normal shadow-xl rounded-2xl transition-all">
+                            <a href="" class="block font-Dana-medium text-white hover:text-sky-500">طراحی</a>
+                            <a href="" class="block font-Dana-medium text-white hover:text-sky-500">برنامه نویسی</a>
+                            <a href="" class="block font-Dana-medium text-white hover:text-sky-500">فایل های ضروری</a>
+                        </div>
+                    </li>
+
+                    <li class="relative group leading-[56px] hover:text-sky-500 transition-all duration-300"><a href="">سیستم
+                        عامل</a>
+                        <div class="absolute opacity-0 invisible group-hover:opacity-100 group-hover:visible top-full w-52 p-6 space-y-3 text-white bg-slate-800 text-base tracking-normal shadow-xl rounded-2xl transition-all">
+                            <a href="" class="block font-Dana-medium text-white hover:text-sky-500">ویندوز</a>
+                            <a href="" class="block font-Dana-medium text-white hover:text-sky-500">لینوکس</a>
+                            <a href="" class="block font-Dana-medium text-white hover:text-sky-500">mac OS</a>
+                        </div>
+                    </li>
+
+                    <li class="hover:text-sky-500 transition-all duration-300">
+                        <a href="#">مقالات</a>
+                    </li>
+
+                    <li class="hover:text-sky-500 transition-all duration-300">
+                        <a href="#">ارسال تیکت</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="search" class="flex items-center justify-between gap-2">
+            <form name="search" method="get" class="flex items-center justify-between gap-2">
+                <div class="bg-white text-slate-900 font-Dana shadow-md rounded-2xl border-0 px-4 py-3">
+                    <input name="search" type="text" placeholder="جستجو گر">
+                </div>
+
+                <div class="flex items-center mx-auto font-bold bg-white rounded-full w-10 h-10 ">
+                    <button>
+                        <svg class="w-9 h-9 pt-1 text-xl font-bold text-slate-900 items-center cursor-pointer hover:w-10 hover:h-10 transition-all duration-300">
+                            <use xlink:href="#search"/>
+                        </svg>
+                    </button>
+                </div>
+            </form>
+
+        </div>
+
+        <div id="logo" class="flex items-center gap-2">
+            <a href="" class="flex items-center justify-between gap-2 gap-x-12">
+                <span class="w-10 h-10">
+                    <h2 class="font-Dana text-xl text-sky-400 pt-1.5">دانلودینگ</h2>
+                </span>
+
+                <div class="w-14 h-14 rounded-full  flex items-center shadow-xl bg-sky-500 hover:bg-white transition-all duration-300">
+                    <span class="w-full h-full font-Dana-medium text-white hover:text-sky-500 transition-all duration-300">
+                        <svg class="flex items-center mt-2 mx-auto w-9 h-9 fill-current ">
+                            <use xlink:href="#downloading_logo"/>
+                        </svg>
+                    </span>
+                </div>
+
+            </a>
+        </div>
+
+
+    </div>
+</header>
+
+<main class="main-container my-12">
+    <div class="container items-center justify-center w-full mx-auto">
+        <div class="w-[1024px] mx-auto items-center ">
+            <div class="flex w-full justify-between ">
+                <h3 class="text-base text-slate-800 font-Dana-demiBold">دانلود بازی Resident Evil 7 رزیدنت ایول برای
+                    کامپیوتر</h3>
+                <p class="text-base text-slate-800 font-Dana pt-0.5"> نویسنده: GAMER</p>
+            </div>
+
+            <div class="w-[1024px] mx-auto items-center pb-8 ">
+                <img class="shadow-2xl rounded-md" src="../assets/image/resident-evil-7-biohazard-pc-game-steam-cover.jpg" alt="resident-evil-7-bio">
+
+                <span class="w-full text-center m-1">
+                    <h1 class="text-xl font-morabba text-slate-800 ">دانلود بازی Resident Evil 7 رزیدنت ایول برای کامپیوتر</h1>
+
+                    <p class="text-base font-Dana text-slate-600 pt-4 ">
+                        <span class="block pb-3">
+                            Resident Evil 7: Biohazard یک بازی ترسناک بقا در سال 2017 است که توسط Capcom ساخته و منتشر شده است. بازیکن کنترل اتان وینترز را در دست دارد که به دنبال همسر گمشده خود در مزرعه متروکه ای می گردد که توسط خانواده ای آلوده اشغال شده است و به حل معماها و مبارزه با دشمنان می پردازد. رزیدنت اویل 7 از رزیدنت اویل 5 و رزیدنت اویل 6 که اکشن‌ محورتر است متفاوت است و به ریشه‌های ترسناک بقای فرنچایز بازمی‌گردد و بر اکتشاف تاکید می‌کند. این اولین بازی اصلی Resident Evil است که از دید اول شخص استفاده می کند.در ادامه با معرفی کامل و دانلود بازی Resident Evil 7 برای کامپیوتر همراه باس گیم بزرگترین مرجع دانلود بازی برای کامپیوتر باشید.
+                        </span>
+
+                        <span class="block pb-3">
+                            Resident Evil 7 اولین بازی تمام‌قدی است که از موتور RE داخلی کپکام استفاده می‌کند. این توسعه توسط کوشی ناکانیشی، کارگردان بازی 2012 Nintendo 3DS Resident Evil: Revelations انجام شد. یک سال قبل از معرفی آن در E3 2016، به عنوان یک نسخه نمایشی واقعیت مجازی به نام آشپزخانه ارائه شد. این تیم از فیلم The Evil Dead در سال 1981 الهام گرفتند، بازی را به یک مکان کاهش دادند و از دیدگاه اول شخص برای غوطه ور کردن بازیکنان استفاده کردند. دو سناریوی محتوای قابل دانلود با نام های Not a Hero و End of Zoe منتشر شد.
+                        </span>
+
+                        <span class="block pb-3">
+                            بازی به طور کلی نقدهای مطلوبی دریافت کرد و به عنوان یک بازگشت به شکل برای سری در نظر گرفته شد. منتقدان گیم پلی، نوآوری و استفاده از واقعیت مجازی را تحسین کردند، اما باس مبارزات و فصل آخر انتقاداتی را به دنبال داشت. تا ژوئن 2022، این بازی 11 میلیون نسخه در سراسر جهان فروخته است. نامزد چندین جایزه پایان سال شد. دنباله‌ای به نام Resident Evil Village در 7 می 2021 منتشر شد.
+                        </span>
+                    </p>
+                </span>
+            </div>
+
+            <div>
+                <!-- system requirment -->
+                <div>
+                    <!-- reqiment -->
+                    <div>
+                        <span class="text-xl font-morabba text-rose-700 leading-5">
+                            <h2 class="flex items-center ">
+                                <svg class="w-8 h-8">
+                                    <use href="#cpu"/>
+                                </svg>
+
+                                حداقل سیستم مورد نیاز :
+                            </h2>
+                        </span>
+
+
+                        <ul class="ltr text-slate-600 text-base">
+                            <li>Os: WINDOWS® 7, 8, 8.1, 10 (64-BIT Required)</li>
+                            <li>Cpu: Intel® Core™ i5-4460, 2.70GHz or AMD FX™-6300 or better</li>
+                            <li>Graphics: NVIDIA® GeForce® GTX 760 or AMD Radeon™ R7 260x with 2GB Video RAM</li>
+                            <li>Memory: 8 GB RAM</li>
+                            <li>DirectX: Version 11</li>
+                            <li>Storage: 24 GB available space</li>
+                            <li>Internet: no needed</li>
+                        </ul>
+                    </div>
+                    <!-- normal -->
+                    <div>
+                        <span class="text-xl font-morabba text-green-700 leading-5">
+                            <h2 class="flex items-center ">
+                                <svg class="w-8 h-8">
+                                    <use href="#cpu"/>
+                                </svg>
+
+                                سیستم پیشنهادی :
+                            </h2>
+                        </span>
+
+
+                        <ul class="ltr text-slate-600 text-base">
+                            <li>Os: WINDOWS® 7, 8, 8.1, 10 (64-BIT Required)</li>
+                            <li>Cpu: Intel® Core™ i7 3770 3.4GHz or AMD equivalent or better</li>
+                            <li>Graphics: NVIDIA® GeForce® GTX 1060 with 3GB VRAM</li>
+                            <li>Memory: 8 GB RAM</li>
+                            <li>DirectX: Version 11</li>
+                            <li>Storage: 24 GB available space</li>
+                            <li>Internet: no needed</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- install guide -->
+
+            <div class="block mt-10">
+
+                <div class="bg-amber-600 rounded-t-xl text-white">
+                    <h2 class="text-xl font-morabba px-2 py-1">راهنمای نصب</h2>
+                </div>
+
+                <div class="border-2 border-amber-600 rounded-b-xl text-slate-600 mb-10">
+                    <ul class="text-base font-Dana">
+                        <li class=" border-b border-b-gray-300 m-2 py-2">1.خاموش کردن آنتی ویروس</li>
+                        <li class=" border-b border-b-gray-300 m-2 py-2">2.اکسترک کردن فایل از WinRar</li>
+                        <li class=" border-b border-b-gray-300 m-2 py-2">3. پیدا کردن فایل Setup</li>
+                        <li class=" border-b border-b-gray-300 m-2 py-2">4.باز کردن فایل به صورت Run as Administrator</li>
+                        <li class=" border-b border-b-gray-300 m-2 py-2">5. شروع فرایند نصب</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- file information -->
+
+            <div class="block mt-10">
+                <div class="bg-violet-700 rounded-t-xl text-white">
+                    <h2 class="text-xl font-morabba px-2 py-1"> اطلاعات فایل </h2>
+                </div>
+
+                <div class="border-2 border-violet-700 rounded-b-xl text-slate-600 mb-10">
+                    <ul>
+                        <li class=" border-b border-b-gray-300 m-1 py-1"> سال انتشار : 2017</li>
+                        <li class=" border-b border-b-gray-300 m-1 py-1">ورژن : Complete Edition All Dlc</li>
+                        <li class=" border-b border-b-gray-300 m-1 py-1">رده سنی : +18</li>
+                        <li class=" border-b border-b-gray-300 m-1 py-1">فرمت : rar-exe</li>
+                        <li class=" border-b border-b-gray-300 m-1 py-1"> نیاز به دیتا : ندارد</li>
+                        <li class=" border-b border-b-gray-300 m-1 py-1"> حجم فایل : 62 GB</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- download -->
+            <div class="block mt-10">
+                <div class="bg-emerald-700 rounded-t-xl text-white">
+                    <h2 class="text-xl font-morabba px-2 py-1"> دانلود </h2>
+                </div>
+
+                <div class="border-2 border-emerald-700 rounded-b-xl text-slate-600 bg-gradient-to-r from-gray-200 to-slate-100 mb-10">
+                    <h4 class="inline-block text-base text-slate-700 font-Dana-demiBold p-2 rounded-3xl ">کرک شده توسط : DODI</h4>
+
+
+                    <span class="block w-full border-b border-b-gray-300 m-1 p-1"></span>
+                    <br>
+                    <!-- download btn-->
+                    <div class="inline-block text-white items-center ">
+                        <p class="download-btn">
+                            <a href="">دانلود با لینک مستقیم _ پارت 1</a>
+                        </p>
+                        <p class="download-btn">
+                            <a href="">دانلود با لینک مستقیم _ پارت 2</a>
+                        </p>
+                        <p class="download-btn">
+                            <a href="">دانلود با لینک مستقیم _ پارت 3</a>
+                        </p>
+                        <p class="download-btn">
+                            <a href="">دانلود با لینک مستقیم _ پارت 4</a>
+                        </p>
+                        <p class="download-btn">
+                            <a href="">دانلود با لینک مستقیم _ پارت 5</a>
+                        </p>
+                        <p class="download-btn">
+                            <a href="">دانلود با لینک مستقیم _ پارت 6</a>
+                        </p>
+                        <p class="download-btn">
+                            <a href="">دانلود با لینک مستقیم _ پارت 7</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <br>
+    <br>
+</main>
+
+<footer class="w-full h-72 bg-slate-900 flex items-center text-white ">
+
+    <div class="w-full container mx-auto flex items-center justify-between">
+        <div class="flex flex-col items-center gap-5">
+            <div class="w-30 h-30 rounded-4xl overflow-hidden ">
+                <a href="https://www.youtube.com/@Avarest_Studio">
+                    <img src="../assets/image/avarest.jpg" alt="">
+                </a>
+            </div>
+
+
+            <div class="text-gray-100 text-xl ">
+                <h2 class="font-Dana-medium">توسعه داده شده توسط <a href="https://www.youtube.com/@Avarest_Studio"
+                                                                    class="text-rose-500 hover:text-red-600 transition-all duration-300">Avarest</a>
+                </h2>
+            </div>
+
+        </div>
+
+
+        <!--پیشنهادات-->
+        <div class="flex flex-col items-center gap-5 ">
+            <div class="text-gray-100 text-xl text-right">
+                <h2 class="font-morabba-bold">پیشنهادات</h2>
+            </div>
+            <ul class="flex flex-col gap-1 text-gray-100 text-base">
+                <li><a href="#">متن تستی 1</a></li>
+                <li><a href="#">متن تستی 2</a></li>
+                <li><a href="#">متن تستی 3</a></li>
+                <li><a href="#">متن تستی 4</a></li>
+                <li><a href="#">متن تستی 5</a></li>
+            </ul>
+        </div>
+
+        <!--آخرین ها-->
+        <div class="flex flex-col items-center gap-5 ">
+            <div class="text-gray-100 text-xl text-right">
+                <h2 class="font-morabba-bold">آخرین ها</h2>
+            </div>
+            <ul>
+                <li><a href="#">متن تستی 1</a></li>
+                <li><a href="#">متن تستی 2</a></li>
+                <li><a href="#">متن تستی 3</a></li>
+                <li><a href="#">متن تستی 4</a></li>
+                <li><a href="#">متن تستی 5</a></li>
+            </ul>
+        </div>
+    </div>
+
+</footer>
+
+
+</body>
+</html>
